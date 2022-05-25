@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    padding: 0;
+    background-image: url('./bg.jpg');
+}
+
+#heading{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bolder;
+}
+
+#game{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top : 60px;
+}
+
+table,td{
+    row-gap: 0;
+    column-gap: 0;
+    padding: 0;
+    border: 6px solid black;
+    border-collapse: collapse;
+}
+
+#grid{
+    display: inline-block;
+    border-color: rgba(255, 255, 255, 0.836);
+    box-shadow: 0px 0px 16px 0px rgba(255,255, 255, 0.6);
+}
+
+
+
+#f0 , #f1, #f2, #f3, #f4, #f5, #f6, #f7, #f8{
+    width: 100px;
+    height: 100px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+}
+
+#c1{
+    border-top:0;
+    border-left:0;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+#c2{
+    border-top:0;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+#c3{
+    border-top:0;
+    border-right:0;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+#c4{
+    border-left:0;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+#c5{
+    background-color: rgba(255, 255, 255, 0.836);
+}
+#c6{
+    border-right:0;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+#c7{
+    border-left:0;
+    border-bottom:0;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+#c8{
+    border-bottom:0;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+#c9{
+    border-right:0;
+    border-bottom:0;
+    background-color: rgba(255, 255, 255, 0.836);
+}
