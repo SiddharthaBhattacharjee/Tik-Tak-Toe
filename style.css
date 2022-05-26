@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding: 0;
-    background-image: url('./bg.jpg');
+    background-image: url('./img/bg.jpg');
 }
 
 #heading{
@@ -47,38 +47,65 @@ table,td{
     border-top:0;
     border-left:0;
     background-color: rgba(255, 255, 255, 0.836);
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #c2{
     border-top:0;
     background-color: rgba(255, 255, 255, 0.836);
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #c3{
     border-top:0;
     border-right:0;
     background-color: rgba(255, 255, 255, 0.836);
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #c4{
     border-left:0;
     background-color: rgba(255, 255, 255, 0.836);
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #c5{
     background-color: rgba(255, 255, 255, 0.836);
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #c6{
     border-right:0;
     background-color: rgba(255, 255, 255, 0.836);
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #c7{
     border-left:0;
     border-bottom:0;
     background-color: rgba(255, 255, 255, 0.836);
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #c8{
     border-bottom:0;
     background-color: rgba(255, 255, 255, 0.836);
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #c9{
     border-right:0;
     border-bottom:0;
     background-color: rgba(255, 255, 255, 0.836);
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
 }

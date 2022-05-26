@@ -9,23 +9,23 @@
 </head>
 <body>
     <script src="./script.js"></script>
-    <div id="heading">Tik-Tak-Toe</div>
+    <div id="heading"><span style="background-color: rgba(255, 255, 255, 0.815);">Tik-Tak-Toe</span></div>
     <div id="game">
         <table id="grid">
             <tr>
                 <td id="c1" onclick="clickx(0)"><canvas id="f0"></canvas></td>
-                <td id="c2"><canvas id="f1"></canvas></td>
-                <td id="c3"><canvas id="f2"></canvas></td>
+                <td id="c2"><canvas id="f1" onclick="clickx(1)"></canvas></td>
+                <td id="c3"><canvas id="f2" onclick="clickx(2)"></canvas></td>
             </tr>
             <tr>
-                <td id="c4"><canvas id="f3"></canvas></td>
-                <td id="c5"><canvas id="f4"></canvas></td>
-                <td id="c6"><canvas id="f5"></canvas></td>
+                <td id="c4"><canvas id="f3" onclick="clickx(3)"></canvas></td>
+                <td id="c5"><canvas id="f4" onclick="clickx(4)"></canvas></td>
+                <td id="c6"><canvas id="f5" onclick="clickx(5)"></canvas></td>
             </tr>
             <tr>
-                <td id="c7"><canvas id="f6"></canvas></td>
-                <td id="c8"><canvas id="f7"></canvas></td>
-                <td id="c9"><canvas id="f8"></canvas></td>
+                <td id="c7"><canvas id="f6" onclick="clickx(6)"></canvas></td>
+                <td id="c8"><canvas id="f7" onclick="clickx(7)"></canvas></td>
+                <td id="c9"><canvas id="f8" onclick="clickx(8)"></canvas></td>
             </tr>
         </table>
     </div>
