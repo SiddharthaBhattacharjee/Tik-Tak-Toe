@@ -122,3 +122,12 @@ table,td{
     font-size: 30px;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 500px){
+    #heading{
+        font-size: 45px;
+    }
+    #score{
+        font-size: 25px;
+    }
+}
