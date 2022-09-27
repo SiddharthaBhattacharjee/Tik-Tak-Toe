@@ -123,45 +123,11 @@ table,td{
     margin-top: 20px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
     #heading{
-        font-size: 40px;
+        font-size: 45px;
     }
-    #game{
-        margin-top: 20px;
-    }
-    #grid{
-        box-shadow: 0px 0px 8px 0px rgba(255,255, 255, 0.6);
-    }
-    #f0 , #f1, #f2, #f3, #f4, #f5, #f6, #f7, #f8{
-        width: 60px;
-        height: 60px;
-    }
-    #c1{
-        background-size: 50px 50px;
-    }
-    #c2{
-        background-size: 50px 50px;
-    }
-    #c3{
-        background-size: 50px 50px;
-    }
-    #c4{
-        background-size: 50px 50px;
-    }
-    #c5{
-        background-size: 50px 50px;
-    }
-    #c6{
-        background-size: 50px 50px;
-    }
-    #c7{
-        background-size: 50px 50px;
-    }
-    #c8{
-        background-size: 50px 50px;
-    }
-    #c9{
-        background-size: 50px 50px;
+    #score{
+        font-size: 25px;
     }
 }
